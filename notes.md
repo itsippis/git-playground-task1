@@ -12,5 +12,9 @@ Things I'd check:
 - Delete NOTES.md or fill it in before committing.
 - Confirm that 25 minutes is the timeout you want.
 
+this is the function that was actually changed
+function save(datas) {
+  fs.writeFileSync(FILE, JSON.stringify(datas, null, 2));
+}
 
 Claude did catch all the changes that I made and was able to provide guidance and hints on what should have happened and/or I intended to make the nececssary changes.
